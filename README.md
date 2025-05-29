@@ -5,7 +5,7 @@ I’m a passionate electronics and VLSI enthusiast, currently focusing on **Digi
 ---
 Files
 <pre>
-    📂 Getting Started
+📂 Getting Started
     📂 Getting Started
     📂 Output Zero
 
