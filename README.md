@@ -2,93 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Modern File Tree</title>
+  <title>GitHub Style File Tree</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f6f8fa;
       padding: 20px;
     }
 
-    ul.tree, .tree ul {
-      list-style: none;
-      padding-left: 20px;
-      position: relative;
+    .file-tree {
+      max-width: 400px;
+      background: #fff;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      padding: 10px 20px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     }
 
-    .tree li {
-      margin: 4px 0;
-      position: relative;
-    }
-
-    .tree span.folder::before {
-      content: "▶";
-      display: inline-block;
-      width: 1em;
-      margin-right: 5px;
-      transition: transform 0.2s;
-    }
-
-    .tree span.folder.expanded::before {
-      transform: rotate(90deg);
-    }
-
-    .tree span.folder {
-      cursor: pointer;
-      font-weight: 600;
-      color: #2c3e50;
-    }
-
-    .tree a.file {
-      text-decoration: none;
-      color: #3498db;
-      font-style: normal;
-      margin-left: 20px;
+    .folder, .file {
       display: block;
+      padding: 5px 0;
+      cursor: pointer;
+      color: #0969da;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .folder:hover, .file:hover {
+      text-decoration: underline;
+    }
+
+    .folder::before {
+      content: "📂 ";
+    }
+
+    .file::before {
+      content: "📄 ";
     }
 
     .nested {
       display: none;
+      padding-left: 20px;
     }
 
     .active {
       display: block;
     }
-
-    .tree a.file:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
 
-<ul class="tree">
-  <li>
-    <span class="folder" onclick="toggle(this)">📁 Getting Started</span>
-    <ul class="nested">
-      <li><a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Getting%20Started">📄 Getting Started</a></li>
-      <li><a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Output%20Zero">📄 Output Zero</a></li>
-    </ul>
-  </li>
-  <li>
-    <span class="folder" onclick="toggle(this)">📁 Verilog Language</span>
-    <ul class="nested">
-      <li>
-        <span class="folder" onclick="toggle(this)">📁 Basics</span>
-        <ul class="nested">
-          <li><a class="file" href="https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Simple%20wire.v">📄 Simple Wire</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+<div class="file-tree">
+  <div class="folder" onclick="toggle(this)">Getting Started</div>
+  <div class="nested">
+    <a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Getting%20Started">Getting Started</a>
+    <a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Output%20Zero">Output Zero</a>
+  </div>
+
+  <div class="folder" onclick="toggle(this)">Verilog Language</div>
+  <div class="nested">
+    <div class="folder" onclick="toggle(this)">Basics</div>
+    <div class="nested">
+      <a class="file" href="https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Simple%20wire.v">Simple Wire</a>
+    </div>
+  </div>
+</div>
 
 <script>
-  function toggle(element) {
-    element.classList.toggle("expanded");
-    const nested = element.nextElementSibling;
-    if (nested) {
-      nested.classList.toggle("active");
-    }
+  function toggle(el) {
+    const nested = el.nextElementSibling;
+    if (nested) nested.classList.toggle('active');
   }
 </script>
 
