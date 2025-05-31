@@ -30,8 +30,8 @@
   <li>
     <span class="folder" onclick="toggle(this)">📂 Getting Started</span>
     <ul class="nested">
-      <li><a class="file" href="getting-started.html">📄 Getting Started</a></li>
-      <li><a class="file" href="output-zero.html">📄 Output Zero</a></li>
+      <li><a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Getting%20Started">📄 Getting Started</a></li>
+      <li><a class="file" href="https://github.com/t-swami/HDL-Bits/tree/main/Getting%20Started/Output%20Zero">📄 Output Zero</a></li>
     </ul>
   </li>
   <li>
@@ -40,8 +40,8 @@
       <li>
         <span class="folder" onclick="toggle(this)">📂 Basics</span>
         <ul class="nested">
-          <li><a class="file" href="basics/wire-vs-reg.html">📄 Wire vs Reg</a></li>
-          <li><a class="file" href="basics/data-types.html">📄 Data Types</a></li>
+          <li><a class="file" href="https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Simple%20wire.v">📄 Simple Wire</a></li>
+          
         </ul>
       </li>
     </ul>
