@@ -8,5 +8,7 @@ Files
 📂 Getting Started
     📂 Getting Started
     📂 Output Zero
+📂 Verilog Language 
+    📂 Basics
 
 </pre>
