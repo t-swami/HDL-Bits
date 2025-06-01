@@ -5,3 +5,5 @@
 ### 📁 Verilog Language
 - 📁 Basics  
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Simple Wire](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Simple%20wire.v)
+  &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Four Wires](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Four%20Wires.v)
+  
