@@ -12,7 +12,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [XNOR Gate](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/XNOR%20gate.v) <br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Declaring Wire](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/Declaring%20wire.v) <br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [7458 Chip](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Basics/7458%20Chip.v)<br>
-  - 📁 Vectors <br>
+- 📁 Vectors <br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vectors](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vectors.v)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vectors in more details](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vectors%20in%20more%20details.v)<br>
     
