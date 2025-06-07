@@ -15,6 +15,8 @@
 - 📁 Vectors <br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vectors](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vectors.v)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vectors in more details](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vectors%20in%20more%20details.v)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vector Part select](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vector%20part%20select.v)<br>
+   
     
 
 
