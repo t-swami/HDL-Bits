@@ -18,6 +18,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vector Part select](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vector%20part%20select.v)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Bitwise Operators](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Bitwise%20operators.v)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Four-input gates](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Four-input%20gates.v)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;└── 📄 [Vector concatination operator](https://github.com/t-swami/HDL-Bits/blob/main/Verilog%20Language/Vectors/Vector%20concatination%20operator.v)<br>
 
 
    
